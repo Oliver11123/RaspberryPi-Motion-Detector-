@@ -139,7 +139,7 @@ Step 6 we copy and paste the following long code into the file
 
 
 
-
+'''
 #!/usr/bin/env python3
 import cv2
 import numpy as np
@@ -438,7 +438,7 @@ class AIMotionDetector:
 if __name__ == "__main__":
     detector = AIMotionDetector()
     detector.run()
-
+'''
 
 
 
