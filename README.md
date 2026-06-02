@@ -430,10 +430,10 @@ class AIMotionDetector:
         self.cap.release()
         cv2.destroyAllWindows()
         print("✅ Cleanup complete")
-
 if __name__ == "__main__":
     detector = AIMotionDetector()
     detector.run()
+
 
 Note: This AI script is half things I did in school and half edited half copied from other people and it's very complicated I don't think I wanna get into explaining everything but I might 😭 FAHH
 
