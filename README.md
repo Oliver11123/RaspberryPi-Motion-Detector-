@@ -135,11 +135,8 @@ nano ai_motion_detector.py
 
 Step 6 we copy and paste the following long code into the file
 
-
-
-
-
 '''
+
 #!/usr/bin/env python3
 import cv2
 import numpy as np
@@ -438,13 +435,8 @@ class AIMotionDetector:
 if __name__ == "__main__":
     detector = AIMotionDetector()
     detector.run()
+
 '''
-
-
-
-
-
-
 
 Note: This AI script is half things I did in school and half edited half copied from other people and it's very complicated I don't think I wanna get into explaining everything but I might 😭 FAHH
 
