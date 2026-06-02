@@ -468,13 +468,10 @@ If you reboot use this code to have easier access to go into and run the code
 cd ~/octoprint/plugins/ai_detector/models
 python3 ai_motion.py
 
-
 Troubleshooting 
 Camera not found -> check your USB physical connection
 Device or resource busy -> use HTTP stream link instead from OctopPrint 
 Can't find YOLO files -> download the wget files again
-
-
 
 The project is done now but I documented the entirety of the things I did and I did run into issues so don't copy anything after here.
 
@@ -491,6 +488,9 @@ ffmpeg -f v4l2 -i /dev/video0 -f v4l2 /dev/video17
 Worked but didn't resolve just confirmed both scripts were using one camera port
 cap = cv2.VideoCapture('http://127.0.0.1:8080/?action=stream')
 This ended up working. It makes the AI script use the OctopPrint HTML site to use it for AI motion detection 
+
+Extra:
+if you want to add a video thing add this;
 
 
 Sources;
