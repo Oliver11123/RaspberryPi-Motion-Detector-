@@ -135,7 +135,7 @@ nano ai_motion_detector.py
 
 Step 6 we copy and paste the following long code into the file
 
-'''python
+,,,
 
 #!/usr/bin/env python3
 import cv2
