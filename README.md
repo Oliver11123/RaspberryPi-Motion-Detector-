@@ -1,7 +1,11 @@
 # RaspberryPi-Ai-Motion-Detector- 
-Hello! (This document is meant to be viewed in print layout)
+Hello! 
 
 This is my project about making an AI motion detector with nothing more than a raspberry pi 4b (any raspberry pi works) and a USB camera (a RaspberryPi camera works too). I will try to make this as detailed as possible so ANYONE can re-make this project!
+
+Clarification;
+
+This runs motion and an ai model in a terminal on the raspberrypi, while on octoprint you see the display of the camera. You don't see the ai overview on octoprint.
 
 Requirements 
 You will need a;
